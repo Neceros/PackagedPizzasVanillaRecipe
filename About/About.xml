@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+		<name>Packaged Pizzas Vanilla Recipe</name>
+		<author>Neceros</author>
+		<supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+      <li>1.2</li>
+    </supportedVersions>
+    <packageId>neceros.packagedpizzasvanillarecipe</packageId>
+		<description>Changes packaged pizza recipes back to vanilla (requires meat.)</description>
+    <modDependencies>
+      <li>
+        <packageId>neceros.packagedpizzas</packageId>
+        <displayName>Packaged Pizzas</displayName>
+        <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1957979871</downloadUrl>
+      </li>
+    </modDependencies>
+    <loadAfter>
+      <li>neceros.packagedpizzas</li>
+    </loadAfter>
+</ModMetaData>
